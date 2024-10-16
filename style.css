@@ -31,12 +31,6 @@ body {
     align-items: center;
     color: rgb(255, 230, 0);
     padding: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-}
-
-.top-bar:hover {
-    background-color: #ffcc80;
 }
 
 .logo {
@@ -47,7 +41,6 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    border-radius: 5px;
 }
 
 .side-bar {
@@ -68,22 +61,19 @@ body {
     align-items: center;
     color: rgb(255, 255, 255);
     cursor: pointer;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease;
+	border-radius: 8px;
+	transition: 0.5s ease-in-out;
 }
 
 .button:hover {
-    background-color: #ffa94d;
-    transform: scale(1.05);
+	background-color: #ed9f45;
+}
+.link {
+	color: white;
+	text-decoration: none;
 }
 
-a.botao {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-}
+
 
 .content {
     display: flex;
@@ -93,14 +83,6 @@ a.botao {
     font-size: 18px;
     height: 200px;
     width: 600px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.content:hover {
-    transform: scale(1.02);
 }
 
 #content1 { grid-area: content1; }
