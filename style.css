@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #ffae6b;
+    background-color: #262626;
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
 
 .top-bar {
     grid-area: top-bar;
-    background-color: #ffd89d;
+    background-color: #474746;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,18 +34,19 @@ body {
 }
 
 .logo {
-    background-color: #ffbe68;
-    width: 150px;
-    height: 50px;
+    background-color: #262626;
+    width: 90px;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 18px;
+	border-radius: 8px;
 }
 
 .side-bar {
     grid-area: side-bar;
-    background-color: #ffd092;
+    background-color: #474746;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -54,7 +55,7 @@ body {
 }
 
 .button {
-    background-color: #ffb560;
+    background-color: #262626;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -66,7 +67,7 @@ body {
 }
 
 .button:hover {
-	background-color: #ed9f45;
+	background-color: #000000;
 }
 .link {
 	color: white;
@@ -75,14 +76,17 @@ body {
 
 
 
-.content {
+.content { 
+	background-color: #474746;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     color: white;
     font-size: 18px;
     height: 200px;
     width: 600px;
+	border-radius: 8px;
+	margin-right: 8px;
 }
 
 #content1 { grid-area: content1; }
